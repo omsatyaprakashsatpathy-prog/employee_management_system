@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Employee Management',
-      initialRoute: '/signup',
+      initialRoute: '/login',
       routes: {
-        '/signup': (context) => const SignupPage(),
         '/login': (context) => const LoginPage(),
+        '/signup': (context) => const SignupPage(),
       },
     );
   }
